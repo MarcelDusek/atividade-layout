@@ -1,0 +1,111 @@
+
+.container {
+	background-color: #4682B4;
+	padding: 2rem;
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px; 
+	/*Flexbox*/
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;	
+}
+.nav {	
+	width: 1200px;
+	height: 60px; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;	
+}
+
+.logo {	
+	height: 70px;
+	background-color: #27408B;
+	margin-right: 10px;	
+	font-size: 3rem;
+	font-weight: bold;
+	/*flexbox*/
+	flex-grow:1;	
+	}
+
+.menu {
+	height: 70px;
+	background-color: #5F9EA0;
+	margin-right: 10px;	
+	font-size: 3rem;
+	font-weight: bold;
+	/*flexbox*/
+	flex-grow:5;	
+	}	
+
+.corpo {	
+	width: 1200px;
+	height: 250px; 
+	/*flexbox*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	align-content: space-between;	
+}
+.corpo1, .corpo2, .corpo3 {	
+	height: 200px;	
+	background-color: #00EE76;	
+	font-size: 1.8rem;
+	font-weight: bold;
+	/*flexbox*/		
+	flex-basis: 20rem;	
+	}
+
+
+.base {
+	margin: 0 auto;
+	width: 1200px;
+	height: 200px; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;	
+}
+
+
+.chamada {
+	width: 1200px;
+	height: 70px;
+	margin-bottom: 20px;
+	background-color: #EEEE00;
+	font-size: 1.8rem;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	align-content: center;		
+	}
+.chamada h4 {
+	flex-grow: 1;
+	align-self: center;
+}	
+
+.chamada a {
+	flex-grow: 1;
+	align-self: center;
+}
+
+.rodape {
+	width: 1200px;
+	height: 70px;
+	background-color: #CDCD00;	
+	font-size: 1.8rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	}
+
+.rodape h4{
+	align-self: center;
+}					
+
